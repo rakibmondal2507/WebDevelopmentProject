@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>dev.com</title>
+    <style>
+      body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+        /* background-color: #f8f8f8; */
+        background-color: #000000;
+      }
+
+      header {
+        text-align: center;
+        padding: 20px 0;
+      }
+
+      h1 {
+        text-align: center;
+        font-size: 2.5rem;
+        color: #f8f8f8;
+      }
+
+      span {
+        color: #ce4e8c;
+      }
+
+      .main {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 40px 0;
+      }
+p{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+      .content {
+        text-align: center;
+      }
+
+      .content h2 {
+        font-size: 1.5rem;
+        color: #ce4e8c;
+      }
+
+      .content p {
+        font-size: 1rem;
+        color:#f8f8f8;
+      }
+
+      .main img {
+        max-width: 100%;
+        height: auto;
+        /* border: 5px solid #ce4e8c; */
+        border: 2px solid white;
+        box-shadow: 3px 3px 9px rgb(169, 169, 169);
+        overflow: hidden;
+        max-height: 200px;
+        float: left;
+        border-radius: 5px;
+      }
+      img{
+        margin-right: 22px;
+        margin-left: 22px;
+      }
+
+      .footer {
+        text-align: center;
+        padding: 20px 0;
+      }
+
+      .footer a {
+        text-decoration: none;
+        color: #ce4e8c;
+        margin: 0 10px;
+        font-weight: bold;
+      }
+      strong{
+        padding-left: 15px;
+      }
+      @media (max-width: 600px) {
+        .main {
+          flex-direction: column;
+        }
+
+        .main img {
+          margin: 20px 0;
+          float: none;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        .title{
+            text-align: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h2 style="color: #f8f8f8;">dev.com</h2>
+    </header>
+    <h1>"We are a <span>Creative</span> Design Agency"</h1>
+    <div class="main">
+      <div class="content">
+        <img src="Butterfly.jpg" alt="It's a Butterfly on a hand" />
+        <h2 class="title">Beauty</h2>
+        <p>
+          <strong>
+            We strive to create the most beautiful websites
+            for all your needs. Working closely with you to
+            design and develop an amazing website for your
+            business.
+          </strong>
+        </p>
+      </div>
+      <div class="content">
+        <img
+          class="const"
+          src="Construction.jpg"
+          alt="Two engineers doing their work"
+        />
+        <h2 class="title">Construction</h2>
+        <p>
+          <strong>
+            Built by our team of professional developers, we ensure the most
+            rigorous and modern websites. Built from scratch using HTML and CSS.
+            Only the best for you.
+          </strong>
+        </p>
+      </div>
+    </div>
+    <footer class="footer">
+      <a href="Create">Create</a>
+      <a href="Develop">Develop</a>
+      <a href="Design">Design</a>
+    </footer>
+  </body>
+</html>
